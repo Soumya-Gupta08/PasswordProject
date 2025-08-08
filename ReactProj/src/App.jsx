@@ -14,7 +14,7 @@ function App() {
     let pass=""
     let str="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     if(num) str+="0123456789"
-    if(char) str+="!@#$%^&(){}[]:<>?,./|";
+    if(char) str+="!@#$%^&(){}[]:<>?,./|;-_+=~`";
 
     for(let i=0; i<len; i++) {
       let char=Math.floor(Math.random()*str.length);
